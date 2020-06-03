@@ -4,7 +4,7 @@
   "description": "Biblioteca desenvolvida no curso JS com TDD na prática",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint src/*.js",
   },
   "repository": {
     "type": "git",
