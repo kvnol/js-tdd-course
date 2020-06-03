@@ -4,7 +4,12 @@
   "description": "Biblioteca desenvolvida no curso JS com TDD na prática",
   "main": "index.js",
   "scripts": {
-    "lint": "npx eslint src/*.js",
+    "lint": "npx eslint src/*.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
   },
   "repository": {
     "type": "git",
@@ -24,6 +29,7 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2"
+    "eslint-plugin-import": "^2.20.2",
+    "husky": "^4.2.5"
   }
 }
