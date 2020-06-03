@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "Biblioteca desenvolvida no curso JS com TDD na prática",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvnol/js-tdd-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "course"
+  ],
+  "author": "Kevin Oliveira <me@kevinoliveira.com.br> (https://kevinoliveira.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kvnol/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/kvnol/js-tdd-course#readme"
+}
